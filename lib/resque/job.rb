@@ -205,7 +205,7 @@ module Resque
 
     # String representation
     def inspect
-      obj = @payload
+      obj = payload
       "(Job{#{@queue}} | #{obj['class']} | #{obj['args'].inspect })"
     end
 
