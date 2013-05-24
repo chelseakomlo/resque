@@ -10,7 +10,7 @@ end
 group :documentation do
   gem 'rdoc'
   gem 'kramdown'
-  gem 'coveralls', :require => false
+  gem 'coveralls', :require => true
 end
 
 group :test do
