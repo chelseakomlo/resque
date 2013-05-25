@@ -10,7 +10,7 @@ end
 group :documentation do
   gem 'rdoc'
   gem 'kramdown'
-  gem 'coveralls', :require => true
+  gem 'coveralls', :require => false
 end
 
 group :test do
@@ -19,4 +19,5 @@ group :test do
   gem "minitest", '4.7.0'
   gem "sinatra"
   gem "capybara", "~> 2.0.3"
+  gem 'simplecov', :require => false
 end
